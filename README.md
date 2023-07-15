@@ -7,4 +7,4 @@ Zoom Electric (ZE) is an electric vehicle venture owned by a renowned automotive
 To understand this sudden decline in sales an analysis was carried out to determine the probable cause. The analysis was done in two phases, first, the sales drop had to be quantified, then a sales growth comparison with other scooter variants was done, and finally, an email analysis to understand the marketing strategies followed during the promotion of the Sprint model.
 Comparing the sales growth with other scooter models will help to assess whether there is a relationship between the launch date and the sales growth experienced in the first two to three weeks.
 The email analysis will provide insights into how well the campaign engages recipients, whether they open the emails, and if they click on the provided links, helping to measure the overall impact and success of the campaign.
-###Quantifying the sales drop
+### Quantifying the sales drop
