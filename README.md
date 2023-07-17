@@ -15,8 +15,10 @@ Validating the sales decline is crucial as it provides a clear understanding of 
 Validating the sales drop by examining the cumulative sales volume over a rolling 7-day period. This approach allows for a consistent evaluation of sales performance throughout the week. Examining the calculated sales growth percentage to determine if it is negative or shows a decline. This confirms that sales have indeed decreased.
 
 The formula used to calculate the change in cumulative sales volume over a rolling 7-day period between two consecutive dates is as follows,
+
 **ΔSales = ((Sales at t - Sales at t-1) / Sales at t-1)**,
-Where Sales represent the cumulative sales volume over the last 7 days, "t" refers to the current time period, and "t-1" represents the previous time period
+
+where Sales represent the cumulative sales volume over the last 7 days, "t" refers to the current time period, and "t-1" represents the previous time period
 
 After analyzing it was found that, the initial two weeks of the launch showed promising sales volume, but thereafter, there was a decline of **~20%**.
 ### Launch Date Assumption
