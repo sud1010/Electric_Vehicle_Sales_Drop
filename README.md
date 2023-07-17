@@ -15,5 +15,11 @@ Validating the sales decline is crucial as it provides a clear understanding of 
 Validating the sales drop by examining the cumulative sales volume over a rolling 7-day period. This approach allows for a consistent evaluation of sales performance throughout the week. Examining the calculated sales growth percentage to determine if it is negative or shows a decline. This confirms that sales have indeed decreased.
 
 The formula used to calculate the change in cumulative sales volume over a rolling 7-day period between two consecutive dates is as follows,
-"ΔSales = ((Sales at t - Sales at t-1) / Sales at t-1)",
+**ΔSales = ((Sales at t - Sales at t-1) / Sales at t-1)**,
 Where Sales represent the cumulative sales volume over the last 7 days, "t" refers to the current time period, and "t-1" represents the previous time period
+
+After analyzing it was found that, the initial two weeks of the launch showed promising sales volume, but thereafter, there was a decline of **~20%**.
+### Launch Date Assumption
+The idea behind this analysis is to check if there is a relationship between the launch date and the sales growth experienced in the first two to three weeks.
+
+Zoom Electric used to launch its product usually in the first half of the year, Sprint is the only scooter that was launched in the second half of the year( in the month of October). By comparing the growth percentage of the Sprint Scooter, with the growth rate of the Sprint Limited Edition launched on a different production start date, we can validate this assumption about the impact of the launch date.
