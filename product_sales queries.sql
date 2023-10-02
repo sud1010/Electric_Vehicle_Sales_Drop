@@ -7,7 +7,13 @@ select * from dbo.emails
 select * from dbo.email_subject
 
 --Now that we have a general idea about the contents of the tables let's move on to the next step i.e, total no:of sales for sprint scooters for the first 2 to 3 weeks of launch
-
+select
+COUNT(customer_id) as num_of_sales, -- the COUNT() is an aggregate function that is used here to count the no:of customer heads who bought the scooters on a specific date
+CONVERT(date, sales_transaction_date) as sales_date -- Using the CONVERT function to extract only the dates from column sales_transaction_date
+from dbo.sales
+where product_id = 7 -- this where clause limits the results only for products with ID 7 i.e, the Sprint scooters
+group by CONVERT(date, sales_transaction_date) -- the group by() is used to aggregate the rows in a column of same value and here the count() of customer_id is grouped by sales_transaction_date
+order by CONVERT(date, sales_transaction_date)
 	
 with cte as(
   --using the common table expression--
