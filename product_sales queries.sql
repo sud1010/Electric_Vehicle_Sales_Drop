@@ -1,6 +1,14 @@
-use Sprints
+--First let's look at all the tables in this project
 
---growth volume table grouped by dates for only Sprint scooters--
+use Sprints
+select * from dbo.sales
+select * from dbo.products
+select * from dbo.emails
+select * from dbo.email_subject
+
+--Now that we have a general idea about the contents of the tables let's move on to the next step i.e, total no:of sales for sprint scooters for the first 2 to 3 weeks of launch
+
+	
 with cte as(
   --using the common table expression--
   select 
