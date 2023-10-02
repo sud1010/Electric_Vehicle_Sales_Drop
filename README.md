@@ -26,8 +26,5 @@ The idea behind this analysis is to check if there is a relationship between the
 
 Zoom Electric usually launches its product in the first half of the year, Sprint is the only scooter that was launched in the second half of the year( in the month of October). By comparing the growth percentage of the Sprint Scooter, with the growth rate of the Sprint Limited Edition launched on a different production start date, we can validate this assumption about the impact of the launch date.
 
-**First** let's study the tables:
-'''
-''' Use Sprints
-''' select * from dbo.sales
+
 
