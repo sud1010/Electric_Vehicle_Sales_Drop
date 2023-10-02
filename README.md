@@ -8,7 +8,7 @@ To understand this sudden decline in sales an analysis was carried out to determ
 
 Comparing the sales growth with other scooter models will help to assess whether there is a relationship between the launch date and the sales growth experienced in the first two to three weeks.
 
-The email analysis will provide insights into how well the campaign engages recipients, whether they open the emails, and if they click on the provided links, helping to measure the overall impact and success of the campaign.
+The email analysis will provide insights into how well the campaign engages recipients, whether they open the emails, and click on the provided links, helping to measure the overall impact and success of the campaign.
 ### Quantifying the sales drop
 Validating the sales decline is crucial as it provides a clear understanding of the current sales performance. By doing so, we can identify any potential issues or trends that may be affecting sales. This information can then be used to make informed decisions and take necessary actions to address the decline.
 
@@ -24,4 +24,10 @@ After analyzing it was found that, the initial two weeks of the launch showed pr
 ### Launch Date Assumption
 The idea behind this analysis is to check if there is a relationship between the launch date and the sales growth experienced in the first two to three weeks.
 
-Zoom Electric used to launch its product usually in the first half of the year, Sprint is the only scooter that was launched in the second half of the year( in the month of October). By comparing the growth percentage of the Sprint Scooter, with the growth rate of the Sprint Limited Edition launched on a different production start date, we can validate this assumption about the impact of the launch date.
+Zoom Electric usually launches its product in the first half of the year, Sprint is the only scooter that was launched in the second half of the year( in the month of October). By comparing the growth percentage of the Sprint Scooter, with the growth rate of the Sprint Limited Edition launched on a different production start date, we can validate this assumption about the impact of the launch date.
+
+**First** let's study the tables:
+'''
+''' Use Sprints
+''' select * from dbo.sales
+
